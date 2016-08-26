@@ -1,0 +1,6 @@
+#!/bin/sh
+app="[Docker Redis Server]"
+echo $app
+
+redis-server --protected-mode no &&
+echo $app started

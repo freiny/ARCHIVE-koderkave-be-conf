@@ -1,0 +1,6 @@
+#!/bin/sh
+
+cd sv
+git clone https://github.com/freiny/koderkave-be.git
+mv ./koderkave-be repo
+cd ..
